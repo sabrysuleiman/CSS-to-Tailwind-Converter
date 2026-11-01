@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: v3-prefix-important-descendant
+expected_outcome: |
+  The response uses Tailwind v3 syntax: the important modifier leads the utility (!tw-text-red-800 or
+  !tw-text-[#991b1b]), the prefix sits after variants (hover:tw-bg-red-100), and there is no
+  trailing-bang v4 form. The descendant rule is kept as a separate class list for the link (for
+  example tw-underline) with a note that the .alert scoping is dropped, or is given as a scoped
+  arbitrary variant such as [.alert_&]:tw-underline.

@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: exact-values-not-rounded
+expected_outcome: |
+  The response keeps off-scale values exact with arbitrary values (py-[5px] px-[11px], text-[13px],
+  tracking-[0.02em], rounded-[5px], bg-[rgba(17,24,39,0.92)], top-[calc(100%+6px)]), and preserves the
+  rotate-then-translate order of the transform with an arbitrary property such as
+  [transform:rotate(-2deg)_translateX(-50%)], or explicitly flags that utilities would reorder it.

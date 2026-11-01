@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest a new mapping, variant, reference topic or verifier improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What should the skill handle?
+      description: Describe the CSS and the Tailwind result you would like
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Applies to
+      options:
+        - Tailwind v4
+        - Tailwind v3
+        - Both
+    validations:
+      required: true

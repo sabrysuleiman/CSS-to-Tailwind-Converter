@@ -1,0 +1,4 @@
+interface:
+  display_name: "CSS to Tailwind"
+  short_description: "Convert CSS rules into Tailwind utility classes"
+  default_prompt: "Use $css-to-tailwind to convert this CSS into Tailwind classes."

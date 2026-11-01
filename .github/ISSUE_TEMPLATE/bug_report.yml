@@ -1,0 +1,43 @@
+name: Conversion bug
+description: A converted class is wrong, missing, or does not exist in your Tailwind version
+labels: [bug]
+body:
+  - type: dropdown
+    id: tailwind
+    attributes:
+      label: Tailwind version
+      options:
+        - v4
+        - v3
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent or app
+      description: For example Claude (app or Claude Code), Codex, or another agent that loads SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: css
+    attributes:
+      label: CSS input
+      description: The smallest CSS that reproduces the problem
+      render: css
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What the skill produced
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and why
+      description: If you can, paste the output of `node skills/css-to-tailwind/scripts/verify_classes.mjs` for the classes you expected
+    validations:
+      required: true

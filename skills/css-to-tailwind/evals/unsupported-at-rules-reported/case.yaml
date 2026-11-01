@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: unsupported-at-rules-reported
+expected_outcome: |
+  The response converts .hero (padding as py-12 px-6, animation as an arbitrary animate-[fade_...]
+  class or equivalent), and reports @font-face, @keyframes and @charset separately as things that are
+  not utility classes, with what to do about each. It does not fail on the at-rules, does not mangle
+  the data URL into a long class name, and does not claim the conversion is lossless.

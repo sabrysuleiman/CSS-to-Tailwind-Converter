@@ -1,0 +1,827 @@
+{
+ "prefix": "",
+ "items": [
+  {
+   "id": "flex-column-centered",
+   "classes": "flex flex-col items-center justify-between gap-4",
+   "source": [
+    {
+     "prop": "display",
+     "value": "flex",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "flex-direction",
+     "value": "column",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "align-items",
+     "value": "center",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "justify-content",
+     "value": "space-between",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "gap",
+     "value": "16px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "absolute-fill",
+   "classes": "absolute inset-0 z-10",
+   "source": [
+    {
+     "prop": "position",
+     "value": "absolute",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "top",
+     "value": "0",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "right",
+     "value": "0",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "bottom",
+     "value": "0",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "left",
+     "value": "0",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "z-index",
+     "value": "10",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sizing-keywords",
+   "classes": "w-full max-w-[1280px] min-h-screen h-auto",
+   "source": [
+    {
+     "prop": "width",
+     "value": "100%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "max-width",
+     "value": "1280px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "min-height",
+     "value": "100vh",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "height",
+     "value": "auto",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "margin-auto-keeps-vertical-zero",
+   "classes": "my-0 mx-auto p-6",
+   "source": [
+    {
+     "prop": "margin",
+     "value": "0 auto",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "padding",
+     "value": "24px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "font-size-with-matching-leading",
+   "classes": "text-sm",
+   "source": [
+    {
+     "prop": "font-size",
+     "value": "14px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "line-height",
+     "value": "20px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "font-size-alone-needs-arbitrary",
+   "classes": "text-[18px]",
+   "source": [
+    {
+     "prop": "font-size",
+     "value": "18px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "type-scale-misc",
+   "classes": "font-medium tracking-wide uppercase text-center",
+   "source": [
+    {
+     "prop": "font-weight",
+     "value": "500",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "letter-spacing",
+     "value": "0.025em",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "text-transform",
+     "value": "uppercase",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "text-align",
+     "value": "center",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "colors-and-border",
+   "classes": "text-white bg-black border border-solid border-[#e5e7eb]",
+   "source": [
+    {
+     "prop": "color",
+     "value": "#fff",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "background-color",
+     "value": "#000",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "border",
+     "value": "1px solid #e5e7eb",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "radius-and-shadow",
+   "classes": "rounded-lg shadow-md",
+   "source": [
+    {
+     "prop": "border-radius",
+     "value": "8px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "box-shadow",
+     "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "small-shadow-renamed-in-v4",
+   "classes": "shadow-xs",
+   "source": [
+    {
+     "prop": "box-shadow",
+     "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "opacity-overflow-cursor",
+   "classes": "opacity-50 overflow-hidden cursor-pointer",
+   "source": [
+    {
+     "prop": "opacity",
+     "value": ".5",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "overflow",
+     "value": "hidden",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "cursor",
+     "value": "pointer",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "transition-all-explicit-easing",
+   "classes": "transition-all duration-150 ease-in-out",
+   "source": [
+    {
+     "prop": "transition",
+     "value": "all 150ms cubic-bezier(0.4,0,0.2,1)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "transition-css-ease-keyword",
+   "classes": "transition-all duration-300 ease-[ease]",
+   "source": [
+    {
+     "prop": "transition",
+     "value": "all 300ms ease",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "transform-single-rotate",
+   "classes": "rotate-45",
+   "source": [
+    {
+     "prop": "transform",
+     "value": "rotate(45deg)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "transform-centering",
+   "classes": "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2",
+   "source": [
+    {
+     "prop": "position",
+     "value": "absolute",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "top",
+     "value": "50%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "left",
+     "value": "50%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "transform",
+     "value": "translate(-50%,-50%)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "grid-three-columns",
+   "classes": "grid grid-cols-3 gap-6",
+   "source": [
+    {
+     "prop": "display",
+     "value": "grid",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "grid-template-columns",
+     "value": "repeat(3,minmax(0,1fr))",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "gap",
+     "value": "24px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "flex-one",
+   "classes": "flex-1",
+   "source": [
+    {
+     "prop": "flex",
+     "value": "1 1 0%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "truncate-compound",
+   "classes": "truncate",
+   "source": [
+    {
+     "prop": "overflow",
+     "value": "hidden",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "text-overflow",
+     "value": "ellipsis",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "white-space",
+     "value": "nowrap",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "font-stack-arbitrary",
+   "classes": "font-[Inter,system-ui,sans-serif]",
+   "source": [
+    {
+     "prop": "font-family",
+     "value": "Inter,system-ui,sans-serif",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "aspect-video",
+   "classes": "aspect-video",
+   "source": [
+    {
+     "prop": "aspect-ratio",
+     "value": "16/9",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "visibility-pointer-select",
+   "classes": "invisible pointer-events-none select-none",
+   "source": [
+    {
+     "prop": "visibility",
+     "value": "hidden",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "pointer-events",
+     "value": "none",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "user-select",
+     "value": "none",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "backdrop-blur-renamed-in-v4",
+   "classes": "backdrop-blur-sm",
+   "source": [
+    {
+     "prop": "backdrop-filter",
+     "value": "blur(8px)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "measure-prose",
+   "classes": "max-w-prose",
+   "source": [
+    {
+     "prop": "max-width",
+     "value": "65ch",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "object-fit",
+   "classes": "object-cover w-full h-full",
+   "source": [
+    {
+     "prop": "object-fit",
+     "value": "cover",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "width",
+     "value": "100%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "height",
+     "value": "100%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "important-modifier",
+   "classes": "hidden! text-white!",
+   "source": [
+    {
+     "prop": "display",
+     "value": "none",
+     "important": true,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "color",
+     "value": "#fff",
+     "important": true,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "hover-focus-states",
+   "classes": "text-white hover:text-black focus:text-[#ef4444]",
+   "source": [
+    {
+     "prop": "color",
+     "value": "#fff",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "color",
+     "value": "#000",
+     "important": false,
+     "context": "&:hover",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "color",
+     "value": "#ef4444",
+     "important": false,
+     "context": "&:focus",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "responsive-min-width",
+   "classes": "p-2 md:p-4 lg:p-6",
+   "source": [
+    {
+     "prop": "padding",
+     "value": "8px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "padding",
+     "value": "16px",
+     "important": false,
+     "context": "&",
+     "at": [
+      "@media (min-width:768px)"
+     ],
+     "line": 1
+    },
+    {
+     "prop": "padding",
+     "value": "24px",
+     "important": false,
+     "context": "&",
+     "at": [
+      "@media (min-width:1024px)"
+     ],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "before-content",
+   "classes": "before:content-[''] before:absolute before:inset-0",
+   "source": [
+    {
+     "prop": "content",
+     "value": "\"\"",
+     "important": false,
+     "context": "&::before",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "position",
+     "value": "absolute",
+     "important": false,
+     "context": "&::before",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "inset",
+     "value": "0",
+     "important": false,
+     "context": "&::before",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "arbitrary-values",
+   "classes": "w-72 mt-[13px] py-[3px] px-[7px] z-5",
+   "source": [
+    {
+     "prop": "width",
+     "value": "288px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "margin-top",
+     "value": "13px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "padding",
+     "value": "3px 7px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "z-index",
+     "value": "5",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "position-percent-offsets",
+   "classes": "fixed top-1/4 left-1/3 w-1/2",
+   "source": [
+    {
+     "prop": "position",
+     "value": "fixed",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "top",
+     "value": "25%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "left",
+     "value": "33.333333%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    },
+    {
+     "prop": "width",
+     "value": "50%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

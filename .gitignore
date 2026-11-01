@@ -1,0 +1,20 @@
+# dependencies and build output
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local verification scratch folders and eval run output
+.tw-check/
+tmp/
+skills/css-to-tailwind/evals/results/
+
+# packaged builds (attach these to GitHub Releases instead)
+dist/
+*.skill

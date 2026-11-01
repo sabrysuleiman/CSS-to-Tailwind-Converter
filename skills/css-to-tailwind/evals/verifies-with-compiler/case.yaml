@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: verifies-with-compiler
+expected_outcome: |
+  The response uses the skill's parser and verifier (or an equivalent real Tailwind compile) to check
+  the classes against Tailwind v4, fixes anything the check flags, and reports the result honestly.
+  The final class lists contain only valid v4 classes, group rules by subject (.nav, .nav a, .card,
+  .card img, ...), express .nav a:hover and the md: padding change as variants, and mention anything
+  inexact.

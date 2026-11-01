@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: v4-default-button-states
+expected_outcome: |
+  No Tailwind version was given, so the response assumes v4 and says so in one line. It returns one
+  class list for .btn that keeps the base styles, a hover: variant, a focus-visible: variant and a md:
+  variant. It uses the v4 name shadow-xs for the 0 1px 2px shadow, keeps the two blues as arbitrary
+  hex values (or explicitly notes the palette shift if it uses named colors), and does not claim
+  anything it did not verify.

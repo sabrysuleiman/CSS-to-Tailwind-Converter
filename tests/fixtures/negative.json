@@ -1,0 +1,185 @@
+{
+ "prefix": "",
+ "items": [
+  {
+   "id": "text-lg-adds-line-height",
+   "classes": "text-lg",
+   "source": [
+    {
+     "prop": "font-size",
+     "value": "18px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "css-ease-keyword-is-not-tailwind-ease",
+   "classes": "transition-all duration-300 ease-in-out",
+   "source": [
+    {
+     "prop": "transition",
+     "value": "all 300ms ease-in-out",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "transition-colors-is-a-property-list",
+   "classes": "transition-colors duration-150 ease-in-out",
+   "source": [
+    {
+     "prop": "transition",
+     "value": "color 150ms cubic-bezier(0.4,0,0.2,1)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "truncate-brings-extra-declarations",
+   "classes": "truncate",
+   "source": [
+    {
+     "prop": "text-overflow",
+     "value": "ellipsis",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "margin-auto-needs-vertical-zeros",
+   "classes": "mx-auto",
+   "source": [
+    {
+     "prop": "margin",
+     "value": "0 auto",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "grid-cols-uses-minmax",
+   "classes": "grid-cols-3",
+   "source": [
+    {
+     "prop": "grid-template-columns",
+     "value": "repeat(3,1fr)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "rounded-full-is-not-50-percent",
+   "classes": "rounded-full",
+   "source": [
+    {
+     "prop": "border-radius",
+     "value": "50%",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "max-w-sm-is-not-640px",
+   "classes": "max-w-sm",
+   "source": [
+    {
+     "prop": "max-width",
+     "value": "640px",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "font-sans-is-not-a-source-stack",
+   "classes": "font-sans",
+   "source": [
+    {
+     "prop": "font-family",
+     "value": "Inter,system-ui,sans-serif",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "outline-none-differs-between-versions",
+   "classes": "outline-none",
+   "source": [
+    {
+     "prop": "outline",
+     "value": "none",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "transform-order-matters",
+   "classes": "rotate-45 translate-x-[10px]",
+   "source": [
+    {
+     "prop": "transform",
+     "value": "translateX(10px) rotate(45deg)",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "nonexistent-class",
+   "classes": "text-red-500 bogus-class",
+   "source": [
+    {
+     "prop": "color",
+     "value": "red",
+     "important": false,
+     "context": "&",
+     "at": [],
+     "line": 1
+    }
+   ],
+   "flags": []
+  }
+ ]
+}
